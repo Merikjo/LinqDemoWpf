@@ -1,0 +1,2 @@
+# LinqDemoWpf
+TK-kurssin tehtävä 
