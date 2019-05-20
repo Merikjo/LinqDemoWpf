@@ -1,0 +1,16 @@
+﻿<Window x:Class="LinqDemoWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LinqDemoWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Query" HorizontalAlignment="Left" Margin="97,34,0,0" VerticalAlignment="Top" Width="264" Height="87" Click="Button_Click"/>
+        <Button x:Name="btnHaeAsiakkaat" Content="Hae Asiakkaat&#xD;&#xA;" HorizontalAlignment="Left" Margin="97,163,0,0" VerticalAlignment="Top" Width="264" Height="79" Click="BtnHaeAsiakkaat_Click"/>
+        <Button x:Name="btnGetCustomers" Content="Get Finnish Customers" HorizontalAlignment="Left" Margin="97,273,0,0" VerticalAlignment="Top" Width="264" Height="64" Click="BtnGetCustomers_Click"/>
+        <Button x:Name="btnLinqOliot" Content="Linq Oliot" HorizontalAlignment="Left" Margin="97,358,0,0" VerticalAlignment="Top" Width="264" Height="51" Click="BtnLinqOliot_Click"/>
+
+    </Grid>
+</Window>
